@@ -4,4 +4,4 @@ require "jasonrhoads_palindrome"
 require "minitest/autorun"
 require "minitest/reporters"
 
-Minietest::Reporters.use!
+Minitest::Reporters.use!
