@@ -4,7 +4,7 @@ module JasonrhoadsPalindrome
   
     # Returns true for a palindrome, false otherwise.
   def palindrome?
-    if processed_content.empty?
+    if processed_content.strip.empty?
       false
     else
       processed_content == processed_content.reverse
